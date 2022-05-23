@@ -2,15 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class clsControleData
+public class clsRotateData
 {
     public string RobotName { get; set; }
-
     public string PartsName { get; set; }
-
-    public Vector3 MoveAmount { get; set; }
-
-    public Vector3 RotateAmount { get; set; }
-
+    public Vector3 RotateDestination { get; set; }
+    public Vector3 RotateVelocity { get; set; } = Vector3.zero;
     public float Time { get; set; }
 }
