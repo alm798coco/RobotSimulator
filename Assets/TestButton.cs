@@ -11,8 +11,9 @@ public class TestButton : MonoBehaviour
         GameObject _trail = GameObject.Find("trail");
         _trail.AddComponent<TrailRenderer>();
         TrailRenderer _trailRenderer = _trail.GetComponent<TrailRenderer>();
-        Material mat = (Material)Resources.Load("CFX3_GlowSpike ADD");
-        //mat.shader = Shader.Find("Default-Particl");
+        Material mat = (Material)Resources.Load("CFX_RayRounded");
+        //Shader shader = (Shader)Resources.Load("CFX3 Multiply Color");
+        //mat.shader = shader;
         _trailRenderer.material = mat;
         _trailRenderer.time = 1.0f;
 
