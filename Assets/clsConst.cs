@@ -10,4 +10,11 @@ public static class clsConst
         Changed = 2,
         Deleted = 3
     }
+
+    public enum ToolControleMode
+    {
+        Create = 1,
+        Edit = 2,
+        Link = 3
+    }
 }
