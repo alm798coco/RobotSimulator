@@ -12,7 +12,7 @@ public class TestButton : MonoBehaviour
         _trail.AddComponent<TrailRenderer>();
         TrailRenderer _trailRenderer = _trail.GetComponent<TrailRenderer>();
         Material mat = (Material)Resources.Load("CFX3_GlowSpike ADD");
-        mat.shader = Shader.Find("Default-Particl");
+        //mat.shader = Shader.Find("Default-Particl");
         _trailRenderer.material = mat;
         _trailRenderer.time = 1.0f;
 
