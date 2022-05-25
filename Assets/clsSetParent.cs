@@ -22,7 +22,7 @@ public static class clsSetParent
 
             return true;
         }
-        catch (System.Exception ex)
+        catch (System.Exception)
         {
             return false;
         }               
