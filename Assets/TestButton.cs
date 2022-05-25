@@ -15,7 +15,7 @@ public class TestButton : MonoBehaviour
         //Shader shader = (Shader)Resources.Load("CFX3 Multiply Color");
         //mat.shader = shader;
         _trailRenderer.material = mat;
-        _trailRenderer.time = 1.0f;
+        _trailRenderer.time = 2.0f;
 
 
         GameObject _robot = GameObject.Find("Robot1");
