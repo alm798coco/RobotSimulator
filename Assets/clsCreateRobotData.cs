@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 
 public class clsCreateRobotData
 {
     public string RobotName { get; set; }
     public string UnityName { get; set; }
-    public float PointX { get; set; }
-    public float PointY { get; set; }
-    public float PointZ { get; set; }
+    public Vector3 Position { get; set; }
+    public Quaternion Rotate { get; set; }
+
 }

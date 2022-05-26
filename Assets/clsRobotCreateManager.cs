@@ -34,11 +34,11 @@ public class clsRobotCreateManager : MonoBehaviour
     {
         if (m_createInstCollection.TryTake(out clsCreateRobotData _robotData))
         {
-            Create(_robotData.RobotName, _robotData.UnityName, _robotData.PointX, _robotData.PointY, _robotData.PointZ);
+            Create(_robotData.RobotName, _robotData.UnityName, _robotData.Position, _robotData.Rotate);
         }
     }
 
-    private void Create(string robotName, string unityName, float pointX, float pointY, float pointZ)
+    private void Create(string robotName, string unityName, Vector3 position, Quaternion rotate)
     {
         try
         {
@@ -48,7 +48,7 @@ public class clsRobotCreateManager : MonoBehaviour
                 return;
             }
 
-            GameObject _inst = Instantiate<GameObject>(_obj, new Vector3(pointX, pointY, pointZ), Quaternion.identity);
+            GameObject _inst = Instantiate<GameObject>(_obj, position, rotate);
             _inst.name = unityName;
 
             // 親子関係作成スクリプトアタッチ
@@ -58,7 +58,7 @@ public class clsRobotCreateManager : MonoBehaviour
             // 動作スクリプトアタッチ
             _inst.AddComponent<clsControleManager>();
             // 当たり判定作成スクリプトアタッチ
-            _inst.AddComponent<clsCreateCollisionRigid>();
+            //_inst.AddComponent<clsCreateCollisionRigid>();
 
             List<string> _writeList = new List<string>() { $"{unityName},{robotName}" };
             clsCsvController.WriteCsv(m_writeCsvFilePath, _writeList, true);
@@ -76,9 +76,8 @@ public class clsRobotCreateManager : MonoBehaviour
         {
             RobotName = _array[0],
             UnityName = _array[1],
-            PointX = float.Parse(_array[2]),
-            PointY = float.Parse(_array[3]),
-            PointZ = float.Parse(_array[4])
+            Position = new Vector3(float.Parse(_array[2]), float.Parse(_array[3]), float.Parse(_array[4])),
+            Rotate = Quaternion.Euler(new Vector3(float.Parse(_array[5]), float.Parse(_array[6]), float.Parse(_array[7])))
         };
         m_createInstCollection.TryAdd(_robotData);
         File.Delete(e.FullPath);
