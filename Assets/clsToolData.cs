@@ -9,6 +9,7 @@ public class clsToolData
     public string ToolName { get; set; }
     public Vector3 Transrate { get; set; }
     public Vector3 Rotate { get; set; }
+    public Vector3 Scale { get; set; }
     public string LinkRobotName { get; set; }
     public string LinkPartuName { get; set; }
 }

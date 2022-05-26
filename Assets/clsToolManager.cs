@@ -28,7 +28,7 @@ public class clsToolManager : MonoBehaviour
                     Create(_controleData.ToolFileName, _controleData.ToolName, _controleData.Transrate, _controleData.Rotate);
                     break;
                 case clsConst.ToolControleMode.Edit:
-                    Edit(_controleData.ToolName, _controleData.Transrate, _controleData.Rotate);
+                    Edit(_controleData.ToolName, _controleData.Transrate, _controleData.Rotate, _controleData.Scale);
                     break;
                 case clsConst.ToolControleMode.Link:
                     Link(_controleData.ToolName, _controleData.LinkRobotName, _controleData.LinkPartuName);
@@ -52,17 +52,30 @@ public class clsToolManager : MonoBehaviour
         _inst.name = toolName;
     }
 
-    private void Edit(string toolName, Vector3 transrate, Vector3 rotate)
+    private void Edit(string toolName, Vector3 transrate, Vector3 rotate, Vector3 scale)
     {
         GameObject gameObject = GameObject.Find(toolName);
         gameObject.transform.Translate(transrate);
         gameObject.transform.Rotate(rotate);
+
+        Vector3 _currentScale = gameObject.transform.localScale;
+        Vector3 _newScale = new Vector3(_currentScale.x * scale.x, _currentScale.y * scale.y, _currentScale.z * scale.z);
+        gameObject.transform.localScale = _newScale;
     }
 
     private void Link(string toolName, string robotName, string partsName)
     {
         GameObject _gameObject = GameObject.Find(robotName);
-        Transform _transform = clsSetParent.SearchTransform(partsName, _gameObject.transform);
+
+        Transform _transform;
+        if (!string.IsNullOrEmpty(partsName))
+        {
+            _transform = clsSetParent.SearchTransform(partsName, _gameObject.transform);
+        }
+        else
+        {
+            _transform = _gameObject.transform;
+        }
 
         GameObject _toolObject = GameObject.Find(toolName);
         _toolObject.transform.parent = _transform;
@@ -103,8 +116,9 @@ public class clsToolManager : MonoBehaviour
             ToolName = _strList[1],
             Transrate = new Vector3(float.Parse(_strList[2]), float.Parse(_strList[3]), float.Parse(_strList[4])),
             Rotate = new Vector3(float.Parse(_strList[5]), float.Parse(_strList[6]), float.Parse(_strList[7])),
-            LinkRobotName = _strList[8],
-            LinkPartuName = _strList[9]
+            Scale = new Vector3(float.Parse(_strList[8]), float.Parse(_strList[9]), float.Parse(_strList[10])),
+            LinkRobotName = _strList[11],
+            LinkPartuName = _strList[12]
         };
 
         m_controleCollection.Add(_toolData);
