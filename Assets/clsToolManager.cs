@@ -25,7 +25,7 @@ public class clsToolManager : MonoBehaviour
             switch (_controleData.Mode)
             {
                 case clsConst.ToolControleMode.Create:
-                    Create(_controleData.ToolFileName, _controleData.ToolName, _controleData.Transrate);
+                    Create(_controleData.ToolFileName, _controleData.ToolName, _controleData.Transrate, _controleData.Rotate);
                     break;
                 case clsConst.ToolControleMode.Edit:
                     Edit(_controleData.ToolName, _controleData.Transrate, _controleData.Rotate);
@@ -39,7 +39,7 @@ public class clsToolManager : MonoBehaviour
         }
     }
 
-    private void Create(string fileName, string toolName, Vector3 position)
+    private void Create(string fileName, string toolName, Vector3 position, Vector3 rotate)
     {
         GameObject _obj = Resources.Load<GameObject>(fileName);
         if (_obj == null)
@@ -47,7 +47,8 @@ public class clsToolManager : MonoBehaviour
             return;
         }
 
-        GameObject _inst = Instantiate<GameObject>(_obj, position, Quaternion.identity);
+        Quaternion _quaternion = Quaternion.Euler(rotate);
+        GameObject _inst = Instantiate<GameObject>(_obj, position, _quaternion);
         _inst.name = toolName;
     }
 
