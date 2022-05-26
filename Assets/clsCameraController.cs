@@ -10,19 +10,21 @@ public class clsCameraController : MonoBehaviour
     public string m_key = "1";
 
     [SerializeField, Range(0.1f, 10f)]
-    private float m_wheelSpeed = 2f; // ƒzƒC[ƒ‹ ŠgkŠ´“x
+    private float m_wheelSpeed = 2f; // ï¿½zï¿½Cï¿½[ï¿½ï¿½ ï¿½gï¿½kï¿½ï¿½ï¿½x
 
     [SerializeField, Range(0.1f, 10f)]
-    private float m_moveSpeed = 0.3f; // ¶ƒNƒŠƒbƒNƒhƒ‰ƒbƒO ˆÚ“®Š´“x
+    private float m_moveSpeed = 0.3f; // ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½hï¿½ï¿½ï¿½bï¿½O ï¿½Ú“ï¿½ï¿½ï¿½ï¿½x
 
     [SerializeField, Range(0.1f, 10f)]
-    private float m_rotateSpeed = 0.3f; // ‰EƒNƒŠƒbƒNƒhƒ‰ƒbƒO ‰ñ“]Š´“x
+    private float m_rotateSpeed = 0.3f; // ï¿½Eï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½hï¿½ï¿½ï¿½bï¿½O ï¿½ï¿½]ï¿½ï¿½ï¿½x
 
     private Vector3 m_preMousePos;
 
     private bool _moveFlg = false;
 
     private List<string> m_keyCodeList = new List<string> { "1", "2", "3", "4" };
+
+    private Camera m_camera;
 
     private void Start()
     {
@@ -36,10 +38,14 @@ public class clsCameraController : MonoBehaviour
             if (m_key == Input.inputString)
             {
                 _moveFlg = true;
+                
+                GetComponent<Camera>().cullingMask = -1;
             }
             else if (m_keyCodeList.Contains(Input.inputString))
             {
                 _moveFlg = false;
+
+                GetComponent<Camera>().cullingMask = ~(1 << 8);
             }            
         }
 
@@ -53,7 +59,7 @@ public class clsCameraController : MonoBehaviour
 
     private void MouseUpdate()
     {
-        // ‰½‚ç‚©‚ğƒNƒŠƒbƒN‚µ‚½“_‚Å‚Ìƒ}ƒEƒXŠJnˆÊ’u
+        // ï¿½ï¿½ï¿½ç‚©ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚Ìƒ}ï¿½Eï¿½Xï¿½Jï¿½nï¿½Ê’u
         if (Input.GetMouseButtonDown(0) ||
            Input.GetMouseButtonDown(1) ||
            Input.GetMouseButtonDown(2))
@@ -61,10 +67,10 @@ public class clsCameraController : MonoBehaviour
             m_preMousePos = Input.mousePosition;
         }
 
-        // Œ»“_‚Å‚Ìƒ}ƒEƒXˆÊ’u‚ğˆø”
+        // ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½Å‚Ìƒ}ï¿½Eï¿½Xï¿½Ê’uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         MouseDrag(Input.mousePosition);
 
-        // ƒzƒC[ƒ‹‘€ì‚ÌŠgk
+        // ï¿½zï¿½Cï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ìï¿½ÌŠgï¿½k
         float scrollWheel = Input.GetAxis("Mouse ScrollWheel");
         if (scrollWheel != 0.0f)
         {
@@ -74,17 +80,17 @@ public class clsCameraController : MonoBehaviour
 
     private void MouseWheel(float delta)
     {
-        // Šgk ZÀ•W‚Éƒ}ƒEƒXƒzƒC[ƒ‹‚ÆŠ´“x‚ğ”½‰f
+        // ï¿½gï¿½k Zï¿½ï¿½ï¿½Wï¿½Éƒ}ï¿½Eï¿½Xï¿½zï¿½Cï¿½[ï¿½ï¿½ï¿½ÆŠï¿½ï¿½xï¿½ğ”½‰f
         transform.position += transform.forward * delta * m_wheelSpeed;
     }
 
     private void MouseDrag(Vector3 mousePos)
     {
-        // ƒ}ƒEƒXŠJnˆÊ’u‚ÆŒ»“_‚Å‚ÌˆÊ’u‚Ì·
+        // ï¿½}ï¿½Eï¿½Xï¿½Jï¿½nï¿½Ê’uï¿½ÆŒï¿½ï¿½ï¿½ï¿½_ï¿½Å‚ÌˆÊ’uï¿½Ìï¿½
         Vector3 diff = mousePos - m_preMousePos;
 
-        // ·‚ª—LŒø‚È’l‚Å‚È‚¢ê‡
-        // ·‚ÌƒxƒNƒgƒ‹‚ªVector3‚ÌŒÀ‚è‚È‚­0‚É‹ß‚¢³‚Ì’l‚æ‚è¬‚³‚¢ê‡
+        // ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½È’lï¿½Å‚È‚ï¿½ï¿½ê‡
+        // ï¿½ï¿½ï¿½Ìƒxï¿½Nï¿½gï¿½ï¿½ï¿½ï¿½Vector3ï¿½ÌŒï¿½ï¿½ï¿½È‚ï¿½0ï¿½É‹ß‚ï¿½ï¿½ï¿½ï¿½Ì’lï¿½ï¿½è¬ï¿½ï¿½ï¿½ï¿½ï¿½ê‡
         if (diff.magnitude < Vector3.kEpsilon)
         {
             //return;
@@ -92,32 +98,32 @@ public class clsCameraController : MonoBehaviour
 
         if (Input.GetMouseButton(0))
         {
-            // ¶ƒNƒŠƒbƒNƒhƒ‰ƒbƒO‚ÅˆÚ“®
+            // ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½ÅˆÚ“ï¿½
 
-            // ·(•‰F”½“])‚É’¼‘O‚Æ¡‚ÌƒtƒŒ[ƒ€ŠÔ‚ÌŒo‰ßŠÔ‚ÆŠ´“x‚ğ”½‰f
-            // Translate‚ÍŒ»İ‚ÌˆÊ’u‚©‚ç‘Š‘Î“I‚ÈˆÊ’u‚ÖˆÚ“®‚·‚é(Œ»İ‚ÌˆÊ’u‚©‚çˆø”•ªˆÚ“®‚·‚é)
+            // ï¿½ï¿½(ï¿½ï¿½ï¿½Fï¿½ï¿½ï¿½])ï¿½É’ï¿½ï¿½Oï¿½Æï¿½ï¿½Ìƒtï¿½ï¿½ï¿½[ï¿½ï¿½ï¿½Ô‚ÌŒoï¿½ßï¿½ï¿½Ô‚ÆŠï¿½ï¿½xï¿½ğ”½‰f
+            // Translateï¿½ÍŒï¿½ï¿½İ‚ÌˆÊ’uï¿½ï¿½ï¿½ç‘Šï¿½Î“Iï¿½ÈˆÊ’uï¿½ÖˆÚ“ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½İ‚ÌˆÊ’uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú“ï¿½ï¿½ï¿½ï¿½ï¿½)
             transform.Translate(-diff * Time.deltaTime * m_moveSpeed);
         }
         else if (Input.GetMouseButton(1))
         {
-            // ‰EƒNƒŠƒbƒNƒhƒ‰ƒbƒO‚Å‰ñ“]
+            // ï¿½Eï¿½Nï¿½ï¿½ï¿½bï¿½Nï¿½hï¿½ï¿½ï¿½bï¿½Oï¿½Å‰ï¿½]
 
-            // X²Y²‚Å‰ñ“]‚ÌˆÊ’u‚ªXY‹t‚É‚È‚é‚½‚ß“ü‚ê‘Ö‚¦‚é
+            // Xï¿½ï¿½Yï¿½ï¿½ï¿½Å‰ï¿½]ï¿½ï¿½ï¿½ÌˆÊ’uï¿½ï¿½XYï¿½tï¿½É‚È‚é‚½ï¿½ß“ï¿½ï¿½ï¿½Ö‚ï¿½ï¿½ï¿½
             CameraRotate(new Vector2(-diff.y, diff.x) * m_rotateSpeed);
         }
 
-        // ƒ}ƒEƒXŠJnˆÊ’u‚ğXV
+        // ï¿½}ï¿½Eï¿½Xï¿½Jï¿½nï¿½Ê’uï¿½ï¿½ï¿½Xï¿½V
         m_preMousePos = mousePos;
     }
 
     public void CameraRotate(Vector2 angle)
     {
-        // ƒJƒƒ‰ã‰º‰ñ“]
-        // ƒJƒƒ‰©g‚ğ’†S‚ÉX²‚Åx“x‰ñ“]
+        // ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ã‰ºï¿½ï¿½]
+        // ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ğ’†Sï¿½ï¿½Xï¿½ï¿½ï¿½ï¿½xï¿½xï¿½ï¿½]
         transform.RotateAround(transform.position, transform.right, angle.x);
 
-        // ƒJƒƒ‰¶‰E‰ñ“]
-        // ƒJƒƒ‰©g‚ğ’†S‚ÉY²‚Åy“x‰ñ“]
+        // ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Eï¿½ï¿½]
+        // ï¿½Jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ğ’†Sï¿½ï¿½Yï¿½ï¿½ï¿½ï¿½yï¿½xï¿½ï¿½]
         transform.RotateAround(transform.position, Vector3.up, angle.y);
     }
 }
