@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1920
-    y: 43
-    width: 1920
-    height: 1007
+    x: 1928
+    y: 51
+    width: 1904
+    height: 991
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
+  m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 957
+    width: 1904
+    height: 941
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 94
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,10 +64,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1619
+    x: 1628
     y: 0
-    width: 301
-    height: 957
+    width: 276
+    height: 941
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -94,8 +94,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 255
-    height: 733
+    width: 220
+    height: 721
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
@@ -119,9 +119,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 733
-    width: 1619
-    height: 224
+    y: 721
+    width: 1628
+    height: 220
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 16}
@@ -151,8 +151,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 1007
+    width: 1904
+    height: 991
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -176,7 +176,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1904
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -197,8 +197,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 987
-    width: 1920
+    y: 971
+    width: 1904
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -221,12 +221,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1619
-    height: 957
+    width: 1628
+    height: 941
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 201
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,12 +246,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1619
-    height: 733
+    width: 1628
+    height: 721
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 202
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,10 +267,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 255
+    x: 220
     y: 0
-    width: 1364
-    height: 733
+    width: 1408
+    height: 721
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
@@ -356,9 +356,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3539
+    x: 3562
     y: 73
-    width: 300
+    width: 277
     height: 936
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -368,7 +368,7 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
+  currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
@@ -588,239 +588,11 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 26635966c457b2145ad305108324f44c
-        - 6ea315d0fd7389c41b19996891e99ae3
-        - 9fc0d4010bbf28b4594072e72b8655ab
-        - ad4ae75034b32db4da7de6c1a5473078
-        - fe39e467a3443a24ab9b66ffb1f6798f
-        - 4589decdd862c70498962d1004d41e9e
-        - ca3425b2d9503464c9b6ad4d17a09fb3
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\New Terrain 1.asset
-          label: New Terrain 1.asset
-          level: 1
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\New Terrain 1.asset
-            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\New Terrain 1.asset
-            projectPath: Assets\New Terrain 1.asset
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 5
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\SampleScene.unity
-          label: SampleScene.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\SampleScene.unity
-            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Scenes\SampleScene.unity
-            projectPath: Assets\Scenes\SampleScene.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Tree 1.prefab
-          label: Tree 1.prefab
-          level: 1
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Tree 1.prefab
-            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 1.prefab
-            projectPath: Assets\Tree 1.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 5
-        - path: Assets\Tree 2.prefab
-          label: Tree 2.prefab
-          level: 1
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Tree 2.prefab
-            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 2.prefab
-            projectPath: Assets\Tree 2.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 5
-        - path: Assets\Tree 3.prefab
-          label: Tree 3.prefab
-          level: 1
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Tree 3.prefab
-            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 3.prefab
-            projectPath: Assets\Tree 3.prefab
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 5
-        - path: Assets\way.fbx
-          label: way.fbx
-          level: 1
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\way.fbx
-            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\way.fbx
-            projectPath: Assets\way.fbx
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+        keys: []
+        values: []
       folders:
-        keys:
-        - Assets
-        - Assets\Scenes
-        - UserSettings
-        - UserSettings\Layouts
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -849,294 +621,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\New Terrain 1.asset
-        label: New Terrain 1.asset
-        level: 1
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\New Terrain 1.asset
-          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\New Terrain 1.asset
-          projectPath: Assets\New Terrain 1.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\New Terrain 1.asset.meta
-        label: New Terrain 1.asset.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\New Terrain 1.asset.meta
-          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\New Terrain 1.asset.meta
-          projectPath: Assets\New Terrain 1.asset.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity
-          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Scenes\SampleScene.unity
-          projectPath: Assets\Scenes\SampleScene.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Tree 1.prefab
-        label: Tree 1.prefab
-        level: 1
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Tree 1.prefab
-          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 1.prefab
-          projectPath: Assets\Tree 1.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Tree 1.prefab.meta
-        label: Tree 1.prefab.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Tree 1.prefab.meta
-          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 1.prefab.meta
-          projectPath: Assets\Tree 1.prefab.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Tree 2.prefab
-        label: Tree 2.prefab
-        level: 1
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Tree 2.prefab
-          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 2.prefab
-          projectPath: Assets\Tree 2.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Tree 2.prefab.meta
-        label: Tree 2.prefab.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Tree 2.prefab.meta
-          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 2.prefab.meta
-          projectPath: Assets\Tree 2.prefab.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Tree 3.prefab
-        label: Tree 3.prefab
-        level: 1
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Tree 3.prefab
-          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 3.prefab
-          projectPath: Assets\Tree 3.prefab
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Tree 3.prefab.meta
-        label: Tree 3.prefab.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Tree 3.prefab.meta
-          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 3.prefab.meta
-          projectPath: Assets\Tree 3.prefab.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\way.fbx
-        label: way.fbx
-        level: 1
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\way.fbx
-          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\way.fbx
-          projectPath: Assets\way.fbx
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\way.fbx.meta
-        label: way.fbx.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\way.fbx.meta
-          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\way.fbx.meta
-          projectPath: Assets\way.fbx.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        label: default-2021.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: C:\Users\y.kojima\RobotSimulator\UserSettings\Layouts\default-2021.dwlt
-          projectPath: UserSettings\Layouts\default-2021.dwlt
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -1156,88 +640,16 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries:
-    - path: Assets\New Terrain 1.asset
-      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\New Terrain 1.asset
-      projectPath: Assets\New Terrain 1.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\New Terrain 1.asset.meta
-      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\New Terrain 1.asset.meta
-      projectPath: Assets\New Terrain 1.asset.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Scenes\SampleScene.unity
-      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Scenes\SampleScene.unity
-      projectPath: Assets\Scenes\SampleScene.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Tree 1.prefab
-      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 1.prefab
-      projectPath: Assets\Tree 1.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Tree 1.prefab.meta
-      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 1.prefab.meta
-      projectPath: Assets\Tree 1.prefab.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Tree 2.prefab
-      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 2.prefab
-      projectPath: Assets\Tree 2.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Tree 2.prefab.meta
-      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 2.prefab.meta
-      projectPath: Assets\Tree 2.prefab.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Tree 3.prefab
-      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 3.prefab
-      projectPath: Assets\Tree 3.prefab
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Tree 3.prefab.meta
-      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Tree 3.prefab.meta
-      projectPath: Assets\Tree 3.prefab.meta
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\way.fbx
-      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\way.fbx
-      projectPath: Assets\way.fbx
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\way.fbx.meta
-      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\way.fbx.meta
-      projectPath: Assets\way.fbx.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\default-2021.dwlt
-      fullPath: C:\Users\y.kojima\RobotSimulator\UserSettings\Layouts\default-2021.dwlt
-      projectPath: UserSettings\Layouts\default-2021.dwlt
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 12 changed files
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-05-26T17:44:55.497+09:00
+      updatedTimeString: 2022-05-30T10:53:52.760+09:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-05-26T17:44:57.894+09:00
+      updatedTimeString: 2022-05-30T11:16:11.372+09:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2022-05-30T11:14:15.892+09:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -8192,7 +7604,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/alm798coco/RobotSimulator
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: kojima
@@ -8206,10 +7618,10 @@ MonoBehaviour:
     updatedTimeString: 2022-05-25T10:33:04.358+09:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-05-26T10:46:08.292+09:00
+    updatedTimeString: 2022-05-27T17:54:41.063+09:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-05-26T16:54:45.228+09:00
+    updatedTimeString: 2022-05-27T17:54:41.020+09:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -8227,8 +7639,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 0.5
+  repositoryProgressMessage: Listing changed files...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
@@ -8282,10 +7694,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
-    y: 806
-    width: 1618
-    height: 203
+    x: 1928
+    y: 802
+    width: 1627
+    height: 199
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8303,22 +7715,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Plugins
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Plugins
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\y.kojima\RobotSimulator
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 425e0000
-    m_LastClickedID: 24130
-    m_ExpandedIDs: 00000000425e0000445e0000465e0000485e0000
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: 8e5e0000
+    m_LastClickedID: 24206
+    m_ExpandedIDs: 00000000865e0000885e00008a5e00008c5e00008e5e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -8346,7 +7758,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000425e0000445e0000465e0000485e0000
+    m_ExpandedIDs: 00000000865e0000885e00008a5e00008c5e00008e5e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -8373,7 +7785,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000ec5d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -8398,7 +7810,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 68}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -8422,10 +7834,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3539
-    y: 73
-    width: 300
-    height: 936
+    x: 3556
+    y: 81
+    width: 275
+    height: 920
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8463,10 +7875,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
-    y: 73
-    width: 254
-    height: 712
+    x: 1928
+    y: 81
+    width: 219
+    height: 700
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8474,9 +7886,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 325d0000
-      m_LastClickedID: 23858
-      m_ExpandedIDs: a074ffff3aa1ffff7cc1ffffc4d8ffff38fbffff
+      m_SelectedIDs: a8730000
+      m_LastClickedID: 29608
+      m_ExpandedIDs: 0aefffff58efffffc2efffffaef0fffffaf0ffffdaf2ffff38fbffffc65d000036640000c6740000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -8520,10 +7932,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2175
-    y: 73
-    width: 1362
-    height: 712
+    x: 2148
+    y: 81
+    width: 1406
+    height: 700
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8609,7 +8021,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -8725,9 +8137,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -99.6, y: 2.5, z: 121.399994}
+    m_Target: {x: 398.15833, y: 375.19897, z: -16.399414}
     speed: 2
-    m_Value: {x: -81.8, y: 2.5, z: 100.1}
+    m_Value: {x: 398.15833, y: 375.19897, z: -16.399414}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -8774,13 +8186,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.36523306, y: 0.10690908, z: -0.04226557, w: 0.9237993}
+    m_Target: {x: 0.083851546, y: -0.03437156, z: 0.002894038, w: 0.99588144}
     speed: 2
-    m_Value: {x: 0.3652301, y: 0.10690822, z: -0.04226523, w: 0.92379177}
+    m_Value: {x: 0.083851516, y: -0.034371547, z: 0.0028940372, w: 0.9958811}
   m_Size:
-    m_Target: 12.124353
+    m_Target: 235.46504
     speed: 2
-    m_Value: 12.124355
+    m_Value: 235.46504
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -8825,9 +8237,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2175
+    x: 2143
     y: 73
-    width: 1362
+    width: 1417
     height: 712
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -8839,7 +8251,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1362, y: 691}
+  m_TargetSize: {x: 1417, y: 691}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -8854,8 +8266,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -681
-    m_HBaseRangeMax: 681
+    m_HBaseRangeMin: -708.5
+    m_HBaseRangeMax: 708.5
     m_VBaseRangeMin: -345.5
     m_VBaseRangeMax: 345.5
     m_HAllowExceedBaseRangeMin: 1
@@ -8875,23 +8287,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1362
+      width: 1417
       height: 691
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 681, y: 345.5}
+    m_Translation: {x: 708.5, y: 345.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -681
+      x: -708.5
       y: -345.5
-      width: 1362
+      width: 1417
       height: 691
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1362, y: 712}
+  m_LastWindowPixelSize: {x: 1417, y: 712}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -8917,10 +8329,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1920
-    y: 845
-    width: 1618
-    height: 164
+    x: 1928
+    y: 802
+    width: 1627
+    height: 199
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default

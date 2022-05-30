@@ -58,7 +58,7 @@ public class clsRobotCreateManager : MonoBehaviour
             // 動作スクリプトアタッチ
             _inst.AddComponent<clsControleManager>();
             // 当たり判定作成スクリプトアタッチ
-            //_inst.AddComponent<clsCreateCollisionRigid>();
+            _inst.AddComponent<clsCreateCollisionRigid>();
 
             List<string> _writeList = new List<string>() { $"{unityName},{robotName}" };
             clsCsvController.WriteCsv(m_writeCsvFilePath, _writeList, true);

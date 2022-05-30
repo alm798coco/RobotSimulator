@@ -15,7 +15,7 @@ public class clsCollisionProcess : MonoBehaviour
         {
             collision.rigidbody.constraints = RigidbodyConstraints.None;
             collision.rigidbody.isKinematic = false;
-            collision.rigidbody.useGravity = true;
+            collision.rigidbody.useGravity = false;
         }
     }
 }
