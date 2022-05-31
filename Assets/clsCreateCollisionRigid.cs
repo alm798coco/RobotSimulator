@@ -15,7 +15,7 @@ public class clsCreateCollisionRigid : MonoBehaviour
         foreach (Transform _child in transform)
         {
             clsSetRigidBody.Set(transform.name, _child.name);
-            _child.gameObject.AddComponent<clsCollisionProcess>();
+            _child.gameObject.AddComponent<clsCollisionTriggerProcess>();
         }
     }
 }

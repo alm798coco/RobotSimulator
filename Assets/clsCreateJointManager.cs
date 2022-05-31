@@ -39,6 +39,7 @@ public class clsCreateJointManager : MonoBehaviour
     private void CreateJoint(string jointPartsName, string newPartsName,float pointX, float pointY, float pointZ, bool enablePoint)
     {        
         Transform _joitPart = clsSetParent.SearchTransform(jointPartsName, this.gameObject.transform);
+        Rigidbody _joinRigid = _joitPart.GetComponent<Rigidbody>();
 
         Vector3 _vector3;
         if (enablePoint)
@@ -47,7 +48,8 @@ public class clsCreateJointManager : MonoBehaviour
         }
         else
         {
-            _vector3 = _joitPart.position;
+            //_vector3 = _joitPart.position;
+            _vector3 = _joinRigid.worldCenterOfMass;
         }
 
         Quaternion _quaternion = _joitPart.rotation;

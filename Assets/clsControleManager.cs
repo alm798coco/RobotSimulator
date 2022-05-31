@@ -13,6 +13,8 @@ public class clsControleManager : MonoBehaviour
     private List<clsMoveData> m_moveDataList { get; set; } = new List<clsMoveData>();
     private List<clsRotateData> m_rotateDataList { get; set; } = new List<clsRotateData>();
 
+    private bool m_changeFlg = false;
+
     private BlockingCollection<clsControleData> m_controleCollection { get; set; } = new BlockingCollection<clsControleData>();
 
     // Start is called before the first frame update
@@ -29,6 +31,9 @@ public class clsControleManager : MonoBehaviour
     {
         if (m_controleCollection.TryTake(out clsControleData _controleData))
         {
+            clsIsKineticChange.ChangeIsKinetic(transform, false);
+            m_changeFlg = true;
+
             Transform _partsTran = clsSetParent.SearchTransform(_controleData.PartsName, transform);
             Vector3 _moveDest = _partsTran.localPosition + _controleData.MoveAmount;
             Vector3 _rotateDest = _partsTran.localEulerAngles + _controleData.RotateAmount;
@@ -102,6 +107,11 @@ public class clsControleManager : MonoBehaviour
             {
                 m_rotateDataList.RemoveAt(i);
             }
+        }
+
+        if (m_changeFlg && m_moveDataList.Count == 0 && m_rotateDataList.Count == 0)
+        {
+            clsIsKineticChange.ChangeIsKinetic(transform, true);
         }
     }
 

@@ -17,7 +17,7 @@ public static class clsSetRigidBody
 
         Rigidbody _rigid = _obj.GetComponent<Rigidbody>();
         _rigid.useGravity = false;
-        _rigid.isKinematic = false;
+        _rigid.isKinematic = true;
         _rigid.constraints = RigidbodyConstraints.FreezeAll;
     }
 }

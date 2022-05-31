@@ -17,5 +17,6 @@ public static class clsSetCollider
 
         MeshCollider _mesh = _obj.GetComponent<MeshCollider>();
         _mesh.convex = true;
+        _mesh.isTrigger = false;
     }
 }

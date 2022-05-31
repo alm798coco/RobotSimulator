@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1904
     height: 991
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 94
+  controlID: 59
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -68,15 +68,15 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 941
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 17}
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 201
+  controlID: 65
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 202
+  controlID: 46
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -356,22 +356,22 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3562
-    y: 73
-    width: 277
-    height: 936
+    x: 3556
+    y: 81
+    width: 275
+    height: 920
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
-  progressMessageClearTime: -1
+  progressMessageClearTime: 92.1122946
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 1
-  currentStatusEntriesHasUpdate: 1
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -579,9 +579,9 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: test
     commitMessage: test
     currentBranch: '[kojima]'
@@ -643,13 +643,13 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-05-30T10:53:52.760+09:00
+      updatedTimeString: 2022-05-30T18:01:57.720+09:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-05-30T11:16:11.372+09:00
+      updatedTimeString: 2022-05-30T18:03:10.638+09:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2022-05-30T11:14:15.892+09:00
+      updatedTimeString: 2022-05-30T18:01:58.144+09:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -7618,10 +7618,10 @@ MonoBehaviour:
     updatedTimeString: 2022-05-25T10:33:04.358+09:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-05-27T17:54:41.063+09:00
+    updatedTimeString: 2022-05-30T18:03:10.676+09:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-05-27T17:54:41.020+09:00
+    updatedTimeString: 2022-05-30T18:03:10.638+09:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -7639,7 +7639,7 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0.5
+  repositoryProgressValue: 1
   repositoryProgressMessage: Listing changed files...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
@@ -7715,22 +7715,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Plugins
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Plugins
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\y.kojima\RobotSimulator
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 8e5e0000
-    m_LastClickedID: 24206
-    m_ExpandedIDs: 00000000865e0000885e00008a5e00008c5e00008e5e0000
+    m_SelectedIDs: 7e5e0000
+    m_LastClickedID: 24190
+    m_ExpandedIDs: 000000007e5e0000805e0000825e0000845e0000865e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -7758,7 +7758,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000865e0000885e00008a5e00008c5e00008e5e0000
+    m_ExpandedIDs: 000000007e5e0000805e0000825e0000845e0000865e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -7810,7 +7810,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 148}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -7886,9 +7886,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a8730000
-      m_LastClickedID: 29608
-      m_ExpandedIDs: 0aefffff58efffffc2efffffaef0fffffaf0ffffdaf2ffff38fbffffc65d000036640000c6740000
+      m_SelectedIDs: 30110000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -8137,7 +8137,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 398.15833, y: 375.19897, z: -16.399414}
+    m_Target: {x: -98.68544, y: 3.4121475, z: 100.07472}
     speed: 2
     m_Value: {x: 398.15833, y: 375.19897, z: -16.399414}
   m_RenderMode: 0
@@ -8186,11 +8186,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.083851546, y: -0.03437156, z: 0.002894038, w: 0.99588144}
+    m_Target: {x: 0.097581044, y: 0.73180103, z: -0.10723524, w: 0.66591763}
     speed: 2
-    m_Value: {x: 0.083851516, y: -0.034371547, z: 0.0028940372, w: 0.9958811}
+    m_Value: {x: -0.083851546, y: 0.03437156, z: -0.0028940383, w: -0.99588144}
   m_Size:
-    m_Target: 235.46504
+    m_Target: 1.4752879
     speed: 2
     m_Value: 235.46504
   m_Ortho:
