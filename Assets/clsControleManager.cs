@@ -105,7 +105,8 @@ public class clsControleManager : MonoBehaviour
             _partsTran.localEulerAngles = _quate;
             m_rotateDataList[i].RotateVelocity = _rotateVelocity;
 
-            _partsTran.gameObject.GetComponent<clsStepControle>().SetStepAng(_quate);
+            //_partsTran.gameObject.GetComponent<clsStepControle>().SetStepAng(_quate);
+            _partsTran.gameObject.GetComponent<clsStepControle>().StartRecord();
 
             if (m_rotateDataList[i].RotateVelocity.normalized == Vector3.zero)
             {
