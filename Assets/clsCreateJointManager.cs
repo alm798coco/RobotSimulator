@@ -58,6 +58,9 @@ public class clsCreateJointManager : MonoBehaviour
         clsSetParent.Set(m_gameObjeName, _joitPart.parent.gameObject.name, newPartsName);
         clsSetParent.Set(m_gameObjeName, newPartsName, jointPartsName);
 
+        Transform _partsTran = clsSetParent.SearchTransform(newPartsName, this.gameObject.transform);
+        _partsTran.gameObject.AddComponent<clsStepControle>();
+
         List<string> _writeList = new List<string>() { $"{newPartsName},{jointPartsName}" };
         clsCsvController.WriteCsv($@"{m_writeCsvFilePath}\{m_gameObjeName}.csv", _writeList, true);
     }

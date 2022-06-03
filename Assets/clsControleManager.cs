@@ -38,6 +38,8 @@ public class clsControleManager : MonoBehaviour
             Vector3 _moveDest = _partsTran.localPosition + _controleData.MoveAmount;
             Vector3 _rotateDest = _partsTran.localEulerAngles + _controleData.RotateAmount;
 
+            _partsTran.gameObject.GetComponent<clsStepControle>().SetFirstAng(_partsTran.localEulerAngles);
+
             if (m_moveDataList.Any(x => x.PartsName == _controleData.PartsName))
             {
                 m_moveDataList.FirstOrDefault(x => x.PartsName == _controleData.PartsName).RobotName = _controleData.RobotName;
@@ -103,6 +105,8 @@ public class clsControleManager : MonoBehaviour
             _partsTran.localEulerAngles = _quate;
             m_rotateDataList[i].RotateVelocity = _rotateVelocity;
 
+            _partsTran.gameObject.GetComponent<clsStepControle>().SetStepAng(_quate);
+
             if (m_rotateDataList[i].RotateVelocity.normalized == Vector3.zero)
             {
                 m_rotateDataList.RemoveAt(i);
@@ -146,5 +150,14 @@ public class clsControleManager : MonoBehaviour
         }
 
         File.Delete(e.FullPath);
+    }
+
+    public void Stop()
+    {
+        foreach (var item in m_rotateDataList)
+        {
+            item.RotateDestination = Vector3.zero;
+            item.Time = 0.1f;
+        }
     }
 }
