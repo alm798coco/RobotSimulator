@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 2185
-    y: 51
-    width: 1643
-    height: 991
+    x: 0
+    y: 43
+    width: 1920
+    height: 1007
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1643
-    height: 941
+    width: 1920
+    height: 957
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 89
+  controlID: 48
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,10 +64,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1287
+    x: 1454
     y: 0
-    width: 356
-    height: 941
+    width: 466
+    height: 957
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
@@ -77,7 +77,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,10 +95,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 279
-    height: 677
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 306
+    height: 688
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -114,24 +114,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 677
-    width: 1287
-    height: 264
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 17}
+    y: 688
+    width: 1454
+    height: 269
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 17}
   - {fileID: 22}
   - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,8 +152,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1643
-    height: 991
+    width: 1920
+    height: 1007
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -177,7 +177,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1643
+    width: 1920
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -198,8 +198,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 971
-    width: 1643
+    y: 987
+    width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -222,12 +222,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1287
-    height: 941
+    width: 1454
+    height: 957
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 79
+  controlID: 21
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,12 +247,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1287
-    height: 677
+    width: 1454
+    height: 688
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 80
+  controlID: 22
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,10 +268,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 279
+    x: 306
     y: 0
-    width: 1008
-    height: 677
+    width: 1148
+    height: 688
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
@@ -504,10 +504,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3448
+    x: 3486
     y: 81
-    width: 383
-    height: 920
+    width: 341
+    height: 927
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -515,13 +515,13 @@ MonoBehaviour:
   progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
+  currentBranchAndRemoteHasUpdate: 1
   currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
-  changeTab: 3
-  activeTab: 3
+  changeTab: 5
+  activeTab: 5
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -727,22 +727,991 @@ MonoBehaviour:
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: test
     commitMessage: test
     currentBranch: '[kojima]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys: []
-        values: []
+        keys:
+        - 00000000000000001000000000000000
+        - d11a8c47c35993143880fc9be0bd85fa
+        - 0ca3242184699d9428ba1d036d63f962
+        - daaa0fc98a318c74db3c756854f995be
+        - 899ae12cdc0f9af4ba930f84807795d1
+        - 1b9673952c03c3647b8ebfa48d953a7a
+        - 217cb7caed5f7fb49b339428b1d80974
+        - b3fad56c531ac5a4db190a745f589a8e
+        - 8dc1be91775c4bb469f6b74cef450eaa
+        - 1d9014b99ad06af428514a5902d29ff3
+        - 83c5d2001771f15429a88d67e81366d6
+        - 1738075a39a390447b7a620ca6962142
+        - eec19781926cd2248b7c9abfde8db555
+        - bc27868d7ce76874f8075ef65b77a84f
+        - 1e10c94d97bdf1349bb675222c54a86c
+        - a1e241ba00fe9a544a0911e2ee8a97fa
+        - 650f42d160a356f4f8273ffcb66415f3
+        - 738827689176e9e45a9d36b09007010a
+        - a4503c5eef14ee546a7053c620d252c7
+        - 04810721f29c2f24bb3cdb425437da1f
+        - 3542cb6c440ff824abe9a9a3efbd37e5
+        - 0f6c77bb538d57f40844c1adc468852e
+        - 322f2ac24cd82f042b22f49682197364
+        - 48000f06924ec154db6f06ae777e54cb
+        - c88520a075e17f14c9a10d2bfa68d6e3
+        - d1767b58cb8c9994981344a892c78904
+        - b863f258c0c946b40b4c547daf484bd5
+        - b536e1dc2c4d8d74797fd992badd54b3
+        - 3b2f18c8a8f200d44825c1d150171e50
+        - f5477fb7ff781d248b10860e29cc6899
+        - 3427f3b5fde978845aef160a67ca3e52
+        - 6e2493aefb1412244bc8c90477c88f25
+        - 683460612c7186146833638c4f558c6c
+        - 2f26db600fe8f8d4880cf09f76a0920e
+        - 6ea315d0fd7389c41b19996891e99ae3
+        - 9fc0d4010bbf28b4594072e72b8655ab
+        - 00000000000000004000000000000000
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\clsGridTest.cs
+          label: clsGridTest.cs
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\clsGridTest.cs
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsGridTest.cs
+            projectPath: Assets\clsGridTest.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\clsGyakuUndoTest.cs
+          label: clsGyakuUndoTest.cs
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\clsGyakuUndoTest.cs
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsGyakuUndoTest.cs
+            projectPath: Assets\clsGyakuUndoTest.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\clsMouseCursole.cs
+          label: clsMouseCursole.cs
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\clsMouseCursole.cs
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsMouseCursole.cs
+            projectPath: Assets\clsMouseCursole.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\clsTransParentTest.cs
+          label: clsTransParentTest.cs
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\clsTransParentTest.cs
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsTransParentTest.cs
+            projectPath: Assets\clsTransParentTest.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NuGet.config
+          label: NuGet.config
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NuGet.config
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet.config
+            projectPath: Assets\NuGet.config
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NuGet
+          label: NuGet
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NuGet\Editor
+          label: Editor
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NuGet\Editor\NugetForUnity.dll
+          label: NugetForUnity.dll
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NuGet\Editor\NugetForUnity.dll
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Editor\NugetForUnity.dll
+            projectPath: Assets\NuGet\Editor\NugetForUnity.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NuGet\LICENSE
+          label: LICENSE
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NuGet\LICENSE
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\LICENSE
+            projectPath: Assets\NuGet\LICENSE
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NuGet\README.pdf
+          label: README.pdf
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NuGet\README.pdf
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\README.pdf
+            projectPath: Assets\NuGet\README.pdf
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\NuGet\Resources
+          label: Resources
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NuGet\Resources\defaultIcon.png
+          label: defaultIcon.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\NuGet\Resources\defaultIcon.png
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Resources\defaultIcon.png
+            projectPath: Assets\NuGet\Resources\defaultIcon.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\packages.config
+          label: packages.config
+          level: 1
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\packages.config
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\packages.config
+            projectPath: Assets\packages.config
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Packages
+          label: Packages
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Packages\NuPack.3.4.2
+          label: NuPack.3.4.2
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+          label: NuPack.3.4.2.nupkg
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+            projectPath: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Packages\NuPack.Extension.2.1.0
+          label: NuPack.Extension.2.1.0
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg
+          label: NuPack.Extension.2.1.0.nupkg
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg
+            projectPath: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins
+          label: Plugins
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins\MathNet.Numerics.dll
+          label: MathNet.Numerics.dll
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\MathNet.Numerics.dll
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\MathNet.Numerics.dll
+            projectPath: Assets\Plugins\MathNet.Numerics.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\MathNet.Numerics.xml
+          label: MathNet.Numerics.xml
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\MathNet.Numerics.xml
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\MathNet.Numerics.xml
+            projectPath: Assets\Plugins\MathNet.Numerics.xml
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\Rt64eccomnt64.dll
+          label: Rt64eccomnt64.dll
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\Rt64eccomnt64.dll
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64eccomnt64.dll
+            projectPath: Assets\Plugins\Rt64eccomnt64.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\Rt64ecgcnv64.dll
+          label: Rt64ecgcnv64.dll
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\Rt64ecgcnv64.dll
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64ecgcnv64.dll
+            projectPath: Assets\Plugins\Rt64ecgcnv64.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Plugins\Rt64ectcnv64.dll
+          label: Rt64ectcnv64.dll
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\Rt64ectcnv64.dll
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64ectcnv64.dll
+            projectPath: Assets\Plugins\Rt64ectcnv64.dll
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\redmate.mat
+          label: redmate.mat
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\redmate.mat
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\redmate.mat
+            projectPath: Assets\redmate.mat
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Resources
+          label: Resources
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Rt64
+          label: Rt64
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Rt64\clsRt64Controller.cs
+          label: clsRt64Controller.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Rt64\clsRt64Controller.cs
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\clsRt64Controller.cs
+            projectPath: Assets\Rt64\clsRt64Controller.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Rt64\Rt64eccom64apiCSNET.cs
+          label: Rt64eccom64apiCSNET.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Rt64\Rt64eccom64apiCSNET.cs
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64eccom64apiCSNET.cs
+            projectPath: Assets\Rt64\Rt64eccom64apiCSNET.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Rt64\Rt64ecdataCSNET.cs
+          label: Rt64ecdataCSNET.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Rt64\Rt64ecdataCSNET.cs
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ecdataCSNET.cs
+            projectPath: Assets\Rt64\Rt64ecdataCSNET.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Rt64\Rt64ecgcd64apiCSNET.cs
+          label: Rt64ecgcd64apiCSNET.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Rt64\Rt64ecgcd64apiCSNET.cs
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ecgcd64apiCSNET.cs
+            projectPath: Assets\Rt64\Rt64ecgcd64apiCSNET.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Rt64\Rt64ectcd64apiCSNET.cs
+          label: Rt64ectcd64apiCSNET.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Rt64\Rt64ectcd64apiCSNET.cs
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ectcd64apiCSNET.cs
+            projectPath: Assets\Rt64\Rt64ectcd64apiCSNET.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Rt64\SyncdefCSNET.cs
+          label: SyncdefCSNET.cs
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Rt64\SyncdefCSNET.cs
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\SyncdefCSNET.cs
+            projectPath: Assets\Rt64\SyncdefCSNET.cs
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          label: SampleScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\SampleScene.unity
+            fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Scenes\SampleScene.unity
+            projectPath: Assets\Scenes\SampleScene.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: ProjectSettings\ProjectSettings.asset
+          label: ProjectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ProjectSettings.asset
+            fullPath: C:\Users\y.kojima\RobotSimulator\ProjectSettings\ProjectSettings.asset
+            projectPath: ProjectSettings\ProjectSettings.asset
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
       folders:
         keys:
+        - Assets
+        - Assets\NuGet
+        - Assets\NuGet\Editor
+        - Assets\NuGet\Resources
+        - Assets\Packages
+        - Assets\Packages\NuPack.3.4.2
+        - Assets\Packages\NuPack.Extension.2.1.0
+        - Assets\Plugins
+        - Assets\Resources
+        - Assets\Rt64
+        - Assets\Scenes
+        - Packages
+        - Packages\NuPack.3.4.2
+        - ProjectSettings
         - UserSettings
         - UserSettings\Layouts
         values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NuGet
+          label: NuGet
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NuGet\Editor
+          label: Editor
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\NuGet\Resources
+          label: Resources
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Packages
+          label: Packages
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Packages\NuPack.3.4.2
+          label: NuPack.3.4.2
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Packages\NuPack.Extension.2.1.0
+          label: NuPack.Extension.2.1.0
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Plugins
+          label: Plugins
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Resources
+          label: Resources
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Rt64
+          label: Rt64
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Packages\NuPack.3.4.2
+          label: NuPack.3.4.2
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: UserSettings
           label: UserSettings
           level: 0
@@ -807,6 +1776,1518 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: app.config
+        label: app.config
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: app.config
+          fullPath: C:\Users\y.kojima\RobotSimulator\app.config
+          projectPath: app.config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\clsCreatePrefabFromResources.cs
+        label: clsCreatePrefabFromResources.cs
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\clsCreatePrefabFromResources.cs
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsCreatePrefabFromResources.cs
+          projectPath: Assets\clsCreatePrefabFromResources.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets\clsCreatePrefabFromResources.cs.meta
+        label: clsCreatePrefabFromResources.cs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\clsCreatePrefabFromResources.cs.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsCreatePrefabFromResources.cs.meta
+          projectPath: Assets\clsCreatePrefabFromResources.cs.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets\clsGridTest.cs
+        label: clsGridTest.cs
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\clsGridTest.cs
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsGridTest.cs
+          projectPath: Assets\clsGridTest.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\clsGridTest.cs.meta
+        label: clsGridTest.cs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\clsGridTest.cs.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsGridTest.cs.meta
+          projectPath: Assets\clsGridTest.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\clsGyakuUndoTest.cs
+        label: clsGyakuUndoTest.cs
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\clsGyakuUndoTest.cs
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsGyakuUndoTest.cs
+          projectPath: Assets\clsGyakuUndoTest.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\clsGyakuUndoTest.cs.meta
+        label: clsGyakuUndoTest.cs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\clsGyakuUndoTest.cs.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsGyakuUndoTest.cs.meta
+          projectPath: Assets\clsGyakuUndoTest.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\clsMouseCursole.cs
+        label: clsMouseCursole.cs
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\clsMouseCursole.cs
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsMouseCursole.cs
+          projectPath: Assets\clsMouseCursole.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\clsMouseCursole.cs.meta
+        label: clsMouseCursole.cs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\clsMouseCursole.cs.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsMouseCursole.cs.meta
+          projectPath: Assets\clsMouseCursole.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\clsTransParentTest.cs
+        label: clsTransParentTest.cs
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\clsTransParentTest.cs
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsTransParentTest.cs
+          projectPath: Assets\clsTransParentTest.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\clsTransParentTest.cs.meta
+        label: clsTransParentTest.cs.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\clsTransParentTest.cs.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsTransParentTest.cs.meta
+          projectPath: Assets\clsTransParentTest.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet.meta
+        label: NuGet.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet.meta
+          projectPath: Assets\NuGet.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet.config
+        label: NuGet.config
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet.config
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet.config
+          projectPath: Assets\NuGet.config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet.config.meta
+        label: NuGet.config.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet.config.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet.config.meta
+          projectPath: Assets\NuGet.config.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet
+        label: NuGet
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\NuGet\Editor.meta
+        label: Editor.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet\Editor.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Editor.meta
+          projectPath: Assets\NuGet\Editor.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet\Editor
+        label: Editor
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\NuGet\Editor\NugetForUnity.dll
+        label: NugetForUnity.dll
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet\Editor\NugetForUnity.dll
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Editor\NugetForUnity.dll
+          projectPath: Assets\NuGet\Editor\NugetForUnity.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet\Editor\NugetForUnity.dll.meta
+        label: NugetForUnity.dll.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet\Editor\NugetForUnity.dll.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Editor\NugetForUnity.dll.meta
+          projectPath: Assets\NuGet\Editor\NugetForUnity.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet\LICENSE
+        label: LICENSE
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet\LICENSE
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\LICENSE
+          projectPath: Assets\NuGet\LICENSE
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet\LICENSE.meta
+        label: LICENSE.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet\LICENSE.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\LICENSE.meta
+          projectPath: Assets\NuGet\LICENSE.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet\README.pdf
+        label: README.pdf
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet\README.pdf
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\README.pdf
+          projectPath: Assets\NuGet\README.pdf
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet\README.pdf.meta
+        label: README.pdf.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet\README.pdf.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\README.pdf.meta
+          projectPath: Assets\NuGet\README.pdf.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet\Resources.meta
+        label: Resources.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet\Resources.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Resources.meta
+          projectPath: Assets\NuGet\Resources.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet\Resources
+        label: Resources
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\NuGet\Resources\defaultIcon.png
+        label: defaultIcon.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet\Resources\defaultIcon.png
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Resources\defaultIcon.png
+          projectPath: Assets\NuGet\Resources\defaultIcon.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\NuGet\Resources\defaultIcon.png.meta
+        label: defaultIcon.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\NuGet\Resources\defaultIcon.png.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Resources\defaultIcon.png.meta
+          projectPath: Assets\NuGet\Resources\defaultIcon.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Packages.meta
+        label: Packages.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Packages.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages.meta
+          projectPath: Assets\Packages.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\packages.config
+        label: packages.config
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\packages.config
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\packages.config
+          projectPath: Assets\packages.config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\packages.config.meta
+        label: packages.config.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\packages.config.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\packages.config.meta
+          projectPath: Assets\packages.config.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Packages
+        label: Packages
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Packages\.signature.p7s
+        label: .signature.p7s
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Packages\.signature.p7s
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\.signature.p7s
+          projectPath: Assets\Packages\.signature.p7s
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Packages\NuPack.3.4.2.meta
+        label: NuPack.3.4.2.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Packages\NuPack.3.4.2.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.3.4.2.meta
+          projectPath: Assets\Packages\NuPack.3.4.2.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Packages\NuPack.3.4.2
+        label: NuPack.3.4.2
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Packages\NuPack.3.4.2\.signature.p7s
+        label: .signature.p7s
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Packages\NuPack.3.4.2\.signature.p7s
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.3.4.2\.signature.p7s
+          projectPath: Assets\Packages\NuPack.3.4.2\.signature.p7s
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+        label: NuPack.3.4.2.nupkg
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+          projectPath: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg.meta
+        label: NuPack.3.4.2.nupkg.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg.meta
+          projectPath: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Packages\NuPack.Extension.2.1.0.meta
+        label: NuPack.Extension.2.1.0.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Packages\NuPack.Extension.2.1.0.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.Extension.2.1.0.meta
+          projectPath: Assets\Packages\NuPack.Extension.2.1.0.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Packages\NuPack.Extension.2.1.0
+        label: NuPack.Extension.2.1.0
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Packages\NuPack.Extension.2.1.0\.signature.p7s
+        label: .signature.p7s
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Packages\NuPack.Extension.2.1.0\.signature.p7s
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.Extension.2.1.0\.signature.p7s
+          projectPath: Assets\Packages\NuPack.Extension.2.1.0\.signature.p7s
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Packages\NuPack.Extension.2.1.0\lib.meta
+        label: lib.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Packages\NuPack.Extension.2.1.0\lib.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.Extension.2.1.0\lib.meta
+          projectPath: Assets\Packages\NuPack.Extension.2.1.0\lib.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg
+        label: NuPack.Extension.2.1.0.nupkg
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg
+          projectPath: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg.meta
+        label: NuPack.Extension.2.1.0.nupkg.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg.meta
+          projectPath: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins
+        label: Plugins
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Plugins\MathNet.Numerics.dll
+        label: MathNet.Numerics.dll
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\MathNet.Numerics.dll
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\MathNet.Numerics.dll
+          projectPath: Assets\Plugins\MathNet.Numerics.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\MathNet.Numerics.dll.meta
+        label: MathNet.Numerics.dll.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\MathNet.Numerics.dll.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\MathNet.Numerics.dll.meta
+          projectPath: Assets\Plugins\MathNet.Numerics.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\MathNet.Numerics.xml
+        label: MathNet.Numerics.xml
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\MathNet.Numerics.xml
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\MathNet.Numerics.xml
+          projectPath: Assets\Plugins\MathNet.Numerics.xml
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\MathNet.Numerics.xml.meta
+        label: MathNet.Numerics.xml.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\MathNet.Numerics.xml.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\MathNet.Numerics.xml.meta
+          projectPath: Assets\Plugins\MathNet.Numerics.xml.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\Rt64eccomnt64.dll
+        label: Rt64eccomnt64.dll
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\Rt64eccomnt64.dll
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64eccomnt64.dll
+          projectPath: Assets\Plugins\Rt64eccomnt64.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\Rt64eccomnt64.dll.meta
+        label: Rt64eccomnt64.dll.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\Rt64eccomnt64.dll.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64eccomnt64.dll.meta
+          projectPath: Assets\Plugins\Rt64eccomnt64.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\Rt64ecgcnv64.dll
+        label: Rt64ecgcnv64.dll
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\Rt64ecgcnv64.dll
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64ecgcnv64.dll
+          projectPath: Assets\Plugins\Rt64ecgcnv64.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\Rt64ecgcnv64.dll.meta
+        label: Rt64ecgcnv64.dll.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\Rt64ecgcnv64.dll.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64ecgcnv64.dll.meta
+          projectPath: Assets\Plugins\Rt64ecgcnv64.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\Rt64ectcnv64.dll
+        label: Rt64ectcnv64.dll
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\Rt64ectcnv64.dll
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64ectcnv64.dll
+          projectPath: Assets\Plugins\Rt64ectcnv64.dll
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Plugins\Rt64ectcnv64.dll.meta
+        label: Rt64ectcnv64.dll.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\Rt64ectcnv64.dll.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64ectcnv64.dll.meta
+          projectPath: Assets\Plugins\Rt64ectcnv64.dll.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\redmate.mat
+        label: redmate.mat
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\redmate.mat
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\redmate.mat
+          projectPath: Assets\redmate.mat
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Resources
+        label: Resources
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Resources\Robot.prefab
+        label: Robot.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Resources\Robot.prefab
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Resources\Robot.prefab
+          projectPath: Assets\Resources\Robot.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets\Resources\Robot.prefab.meta
+        label: Robot.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Resources\Robot.prefab.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Resources\Robot.prefab.meta
+          projectPath: Assets\Resources\Robot.prefab.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets\Resources\Robot_test.prefab
+        label: Robot_test.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Resources\Robot_test.prefab
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Resources\Robot_test.prefab
+          projectPath: Assets\Resources\Robot_test.prefab
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets\Resources\Robot_test.prefab.meta
+        label: Robot_test.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Resources\Robot_test.prefab.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Resources\Robot_test.prefab.meta
+          projectPath: Assets\Resources\Robot_test.prefab.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets\Rt64.meta
+        label: Rt64.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64.meta
+          projectPath: Assets\Rt64.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64
+        label: Rt64
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Rt64\clsRt64Controller.cs
+        label: clsRt64Controller.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\clsRt64Controller.cs
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\clsRt64Controller.cs
+          projectPath: Assets\Rt64\clsRt64Controller.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64\clsRt64Controller.cs.meta
+        label: clsRt64Controller.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\clsRt64Controller.cs.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\clsRt64Controller.cs.meta
+          projectPath: Assets\Rt64\clsRt64Controller.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64\Rt64eccom64apiCSNET.cs
+        label: Rt64eccom64apiCSNET.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\Rt64eccom64apiCSNET.cs
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64eccom64apiCSNET.cs
+          projectPath: Assets\Rt64\Rt64eccom64apiCSNET.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64\Rt64eccom64apiCSNET.cs.meta
+        label: Rt64eccom64apiCSNET.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\Rt64eccom64apiCSNET.cs.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64eccom64apiCSNET.cs.meta
+          projectPath: Assets\Rt64\Rt64eccom64apiCSNET.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64\Rt64ecdataCSNET.cs
+        label: Rt64ecdataCSNET.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\Rt64ecdataCSNET.cs
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ecdataCSNET.cs
+          projectPath: Assets\Rt64\Rt64ecdataCSNET.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64\Rt64ecdataCSNET.cs.meta
+        label: Rt64ecdataCSNET.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\Rt64ecdataCSNET.cs.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ecdataCSNET.cs.meta
+          projectPath: Assets\Rt64\Rt64ecdataCSNET.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64\Rt64ecgcd64apiCSNET.cs
+        label: Rt64ecgcd64apiCSNET.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\Rt64ecgcd64apiCSNET.cs
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ecgcd64apiCSNET.cs
+          projectPath: Assets\Rt64\Rt64ecgcd64apiCSNET.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64\Rt64ecgcd64apiCSNET.cs.meta
+        label: Rt64ecgcd64apiCSNET.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\Rt64ecgcd64apiCSNET.cs.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ecgcd64apiCSNET.cs.meta
+          projectPath: Assets\Rt64\Rt64ecgcd64apiCSNET.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64\Rt64ectcd64apiCSNET.cs
+        label: Rt64ectcd64apiCSNET.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\Rt64ectcd64apiCSNET.cs
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ectcd64apiCSNET.cs
+          projectPath: Assets\Rt64\Rt64ectcd64apiCSNET.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64\Rt64ectcd64apiCSNET.cs.meta
+        label: Rt64ectcd64apiCSNET.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\Rt64ectcd64apiCSNET.cs.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ectcd64apiCSNET.cs.meta
+          projectPath: Assets\Rt64\Rt64ectcd64apiCSNET.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64\SyncdefCSNET.cs
+        label: SyncdefCSNET.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\SyncdefCSNET.cs
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\SyncdefCSNET.cs
+          projectPath: Assets\Rt64\SyncdefCSNET.cs
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Rt64\SyncdefCSNET.cs.meta
+        label: SyncdefCSNET.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Rt64\SyncdefCSNET.cs.meta
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\SyncdefCSNET.cs.meta
+          projectPath: Assets\Rt64\SyncdefCSNET.cs.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        label: SampleScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: packages.config
+        label: packages.config
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: packages.config
+          fullPath: C:\Users\y.kojima\RobotSimulator\packages.config
+          projectPath: packages.config
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages\NuPack.3.4.2
+        label: NuPack.3.4.2
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages\NuPack.3.4.2\.signature.p7s
+        label: .signature.p7s
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\NuPack.3.4.2\.signature.p7s
+          fullPath: C:\Users\y.kojima\RobotSimulator\Packages\NuPack.3.4.2\.signature.p7s
+          projectPath: Packages\NuPack.3.4.2\.signature.p7s
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+        label: NuPack.3.4.2.nupkg
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+          fullPath: C:\Users\y.kojima\RobotSimulator\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+          projectPath: Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\y.kojima\RobotSimulator\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: UserSettings
         label: UserSettings
         level: 0
@@ -881,21 +3362,441 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
+    - path: app.config
+      fullPath: C:\Users\y.kojima\RobotSimulator\app.config
+      projectPath: app.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\clsCreatePrefabFromResources.cs
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsCreatePrefabFromResources.cs
+      projectPath: Assets\clsCreatePrefabFromResources.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\clsCreatePrefabFromResources.cs.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsCreatePrefabFromResources.cs.meta
+      projectPath: Assets\clsCreatePrefabFromResources.cs.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\clsGridTest.cs
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsGridTest.cs
+      projectPath: Assets\clsGridTest.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\clsGridTest.cs.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsGridTest.cs.meta
+      projectPath: Assets\clsGridTest.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\clsGyakuUndoTest.cs
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsGyakuUndoTest.cs
+      projectPath: Assets\clsGyakuUndoTest.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\clsGyakuUndoTest.cs.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsGyakuUndoTest.cs.meta
+      projectPath: Assets\clsGyakuUndoTest.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\clsMouseCursole.cs
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsMouseCursole.cs
+      projectPath: Assets\clsMouseCursole.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\clsMouseCursole.cs.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsMouseCursole.cs.meta
+      projectPath: Assets\clsMouseCursole.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\clsTransParentTest.cs
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsTransParentTest.cs
+      projectPath: Assets\clsTransParentTest.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\clsTransParentTest.cs.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\clsTransParentTest.cs.meta
+      projectPath: Assets\clsTransParentTest.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet.meta
+      projectPath: Assets\NuGet.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet.config
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet.config
+      projectPath: Assets\NuGet.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet.config.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet.config.meta
+      projectPath: Assets\NuGet.config.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet\Editor.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Editor.meta
+      projectPath: Assets\NuGet\Editor.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet\Editor\NugetForUnity.dll
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Editor\NugetForUnity.dll
+      projectPath: Assets\NuGet\Editor\NugetForUnity.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet\Editor\NugetForUnity.dll.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Editor\NugetForUnity.dll.meta
+      projectPath: Assets\NuGet\Editor\NugetForUnity.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet\LICENSE
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\LICENSE
+      projectPath: Assets\NuGet\LICENSE
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet\LICENSE.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\LICENSE.meta
+      projectPath: Assets\NuGet\LICENSE.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet\README.pdf
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\README.pdf
+      projectPath: Assets\NuGet\README.pdf
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet\README.pdf.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\README.pdf.meta
+      projectPath: Assets\NuGet\README.pdf.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet\Resources.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Resources.meta
+      projectPath: Assets\NuGet\Resources.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet\Resources\defaultIcon.png
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Resources\defaultIcon.png
+      projectPath: Assets\NuGet\Resources\defaultIcon.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\NuGet\Resources\defaultIcon.png.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\NuGet\Resources\defaultIcon.png.meta
+      projectPath: Assets\NuGet\Resources\defaultIcon.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Packages.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages.meta
+      projectPath: Assets\Packages.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\packages.config
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\packages.config
+      projectPath: Assets\packages.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\packages.config.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\packages.config.meta
+      projectPath: Assets\packages.config.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Packages\.signature.p7s
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\.signature.p7s
+      projectPath: Assets\Packages\.signature.p7s
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Packages\NuPack.3.4.2.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.3.4.2.meta
+      projectPath: Assets\Packages\NuPack.3.4.2.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Packages\NuPack.3.4.2\.signature.p7s
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.3.4.2\.signature.p7s
+      projectPath: Assets\Packages\NuPack.3.4.2\.signature.p7s
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+      projectPath: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg.meta
+      projectPath: Assets\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Packages\NuPack.Extension.2.1.0.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.Extension.2.1.0.meta
+      projectPath: Assets\Packages\NuPack.Extension.2.1.0.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Packages\NuPack.Extension.2.1.0\.signature.p7s
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.Extension.2.1.0\.signature.p7s
+      projectPath: Assets\Packages\NuPack.Extension.2.1.0\.signature.p7s
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Packages\NuPack.Extension.2.1.0\lib.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.Extension.2.1.0\lib.meta
+      projectPath: Assets\Packages\NuPack.Extension.2.1.0\lib.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg
+      projectPath: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg.meta
+      projectPath: Assets\Packages\NuPack.Extension.2.1.0\NuPack.Extension.2.1.0.nupkg.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\MathNet.Numerics.dll
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\MathNet.Numerics.dll
+      projectPath: Assets\Plugins\MathNet.Numerics.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\MathNet.Numerics.dll.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\MathNet.Numerics.dll.meta
+      projectPath: Assets\Plugins\MathNet.Numerics.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\MathNet.Numerics.xml
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\MathNet.Numerics.xml
+      projectPath: Assets\Plugins\MathNet.Numerics.xml
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\MathNet.Numerics.xml.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\MathNet.Numerics.xml.meta
+      projectPath: Assets\Plugins\MathNet.Numerics.xml.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\Rt64eccomnt64.dll
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64eccomnt64.dll
+      projectPath: Assets\Plugins\Rt64eccomnt64.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\Rt64eccomnt64.dll.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64eccomnt64.dll.meta
+      projectPath: Assets\Plugins\Rt64eccomnt64.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\Rt64ecgcnv64.dll
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64ecgcnv64.dll
+      projectPath: Assets\Plugins\Rt64ecgcnv64.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\Rt64ecgcnv64.dll.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64ecgcnv64.dll.meta
+      projectPath: Assets\Plugins\Rt64ecgcnv64.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\Rt64ectcnv64.dll
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64ectcnv64.dll
+      projectPath: Assets\Plugins\Rt64ectcnv64.dll
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Plugins\Rt64ectcnv64.dll.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Plugins\Rt64ectcnv64.dll.meta
+      projectPath: Assets\Plugins\Rt64ectcnv64.dll.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\redmate.mat
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\redmate.mat
+      projectPath: Assets\redmate.mat
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Resources\Robot.prefab
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Resources\Robot.prefab
+      projectPath: Assets\Resources\Robot.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Resources\Robot.prefab.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Resources\Robot.prefab.meta
+      projectPath: Assets\Resources\Robot.prefab.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Resources\Robot_test.prefab
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Resources\Robot_test.prefab
+      projectPath: Assets\Resources\Robot_test.prefab
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Resources\Robot_test.prefab.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Resources\Robot_test.prefab.meta
+      projectPath: Assets\Resources\Robot_test.prefab.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Rt64.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64.meta
+      projectPath: Assets\Rt64.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\clsRt64Controller.cs
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\clsRt64Controller.cs
+      projectPath: Assets\Rt64\clsRt64Controller.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\clsRt64Controller.cs.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\clsRt64Controller.cs.meta
+      projectPath: Assets\Rt64\clsRt64Controller.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\Rt64eccom64apiCSNET.cs
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64eccom64apiCSNET.cs
+      projectPath: Assets\Rt64\Rt64eccom64apiCSNET.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\Rt64eccom64apiCSNET.cs.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64eccom64apiCSNET.cs.meta
+      projectPath: Assets\Rt64\Rt64eccom64apiCSNET.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\Rt64ecdataCSNET.cs
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ecdataCSNET.cs
+      projectPath: Assets\Rt64\Rt64ecdataCSNET.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\Rt64ecdataCSNET.cs.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ecdataCSNET.cs.meta
+      projectPath: Assets\Rt64\Rt64ecdataCSNET.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\Rt64ecgcd64apiCSNET.cs
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ecgcd64apiCSNET.cs
+      projectPath: Assets\Rt64\Rt64ecgcd64apiCSNET.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\Rt64ecgcd64apiCSNET.cs.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ecgcd64apiCSNET.cs.meta
+      projectPath: Assets\Rt64\Rt64ecgcd64apiCSNET.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\Rt64ectcd64apiCSNET.cs
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ectcd64apiCSNET.cs
+      projectPath: Assets\Rt64\Rt64ectcd64apiCSNET.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\Rt64ectcd64apiCSNET.cs.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\Rt64ectcd64apiCSNET.cs.meta
+      projectPath: Assets\Rt64\Rt64ectcd64apiCSNET.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\SyncdefCSNET.cs
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\SyncdefCSNET.cs
+      projectPath: Assets\Rt64\SyncdefCSNET.cs
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Rt64\SyncdefCSNET.cs.meta
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Rt64\SyncdefCSNET.cs.meta
+      projectPath: Assets\Rt64\SyncdefCSNET.cs.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\y.kojima\RobotSimulator\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: packages.config
+      fullPath: C:\Users\y.kojima\RobotSimulator\packages.config
+      projectPath: packages.config
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\NuPack.3.4.2\.signature.p7s
+      fullPath: C:\Users\y.kojima\RobotSimulator\Packages\NuPack.3.4.2\.signature.p7s
+      projectPath: Packages\NuPack.3.4.2\.signature.p7s
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+      fullPath: C:\Users\y.kojima\RobotSimulator\Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+      projectPath: Packages\NuPack.3.4.2\NuPack.3.4.2.nupkg
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\y.kojima\RobotSimulator\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: UserSettings\Layouts\default-2021.dwlt
       fullPath: C:\Users\y.kojima\RobotSimulator\UserSettings\Layouts\default-2021.dwlt
       projectPath: UserSettings\Layouts\default-2021.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 1 changed file
+    changedFilesText: 71 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2022-06-09T17:51:19.381+09:00
+      updatedTimeString: 2022-06-10T11:15:43.898+09:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2022-06-09T18:02:36.350+09:00
+      updatedTimeString: 2022-06-10T11:47:33.599+09:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2022-06-10T10:05:44.901+09:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -7782,7 +10683,7 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2022-05-24T10:41:30.271+09:00
+      updatedTimeString: 2022-06-16T14:12:33.226+09:00
       cacheType: 1
     metricsEnabled: 1
     newRepositoryRemoteUrl: https://github.com/alm798coco/RobotSimulator
@@ -7796,7 +10697,7 @@ MonoBehaviour:
       newGitEmail: alm798coco@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2022-05-24T10:42:47.584+09:00
+        updatedTimeString: 2022-06-16T13:47:46.958+09:00
         cacheType: 8
     webTimeout: 3000
     gitTimeout: 5000
@@ -7850,7 +10751,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/alm798coco/RobotSimulator
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
+  hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: kojima
@@ -7861,13 +10762,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2022-05-31T16:30:51.914+09:00
+    updatedTimeString: 2022-06-10T17:31:33.823+09:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2022-06-01T10:28:38.688+09:00
+    updatedTimeString: 2022-06-10T17:53:55.132+09:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2022-06-01T10:28:38.658+09:00
+    updatedTimeString: 2022-06-10T17:53:55.105+09:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -7885,7 +10786,7 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
+  repositoryProgressValue: 1
   repositoryProgressMessage: Listing changed files...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
@@ -7940,10 +10841,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2185
-    y: 758
-    width: 1286
-    height: 243
+    x: 0
+    y: 761
+    width: 1486
+    height: 248
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -7961,22 +10862,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Resources
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Resources
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\y.kojima\RobotSimulator
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d2670000
-    m_LastClickedID: 26578
-    m_ExpandedIDs: 00000000d2670000d4670000d6670000d8670000da670000dc670000de670000e0670000
+    scrollPos: {x: 0, y: 48}
+    m_SelectedIDs: c86a0000
+    m_LastClickedID: 27336
+    m_ExpandedIDs: 00000000b4680000b6680000b8680000ba680000bc680000be680000c0680000c2680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -8004,7 +10905,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d2670000d4670000d6670000d8670000da670000dc670000de670000e0670000
+    m_ExpandedIDs: 00000000b4680000b6680000b8680000ba680000bc680000be680000c0680000c2680000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -8029,8 +10930,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: beddffff
+    m_LastClickedInstanceID: -8770
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000ec5d0000
     m_RenameOverlay:
@@ -8056,7 +10957,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 164}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -8080,10 +10981,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 3472
-    y: 81
-    width: 355
-    height: 920
+    x: 1454
+    y: 73
+    width: 465
+    height: 936
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8121,20 +11022,20 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2185
-    y: 81
-    width: 278
-    height: 656
+    x: 0
+    y: 73
+    width: 305
+    height: 667
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 709}
-      m_SelectedIDs: f07effff
-      m_LastClickedID: -33040
-      m_ExpandedIDs: 44d5ffff48d5ffff50d5ffff54d5ffff5cd5ffff60d5ffff68d5ffff6cd5ffff70d5ffffbaf7ffffbef7ffffc6f7ffffcaf7ffffd2f7ffffd6f7ffffdef7ffffe2f7ffff30fbffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: f0e10100
+      m_LastClickedID: 123376
+      m_ExpandedIDs: a298ffffee98ffffe29dffffa6bfffff7cd1ffffbeddffff30fbffff2e6000000e61000092610000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -8178,10 +11079,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2464
-    y: 81
-    width: 1006
-    height: 656
+    x: 306
+    y: 73
+    width: 1146
+    height: 667
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8383,9 +11284,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.382987, y: -6.6983943, z: -2.5291214}
+    m_Target: {x: -0.6467594, y: 2.6092458, z: 0.29056042}
     speed: 2
-    m_Value: {x: -2.382987, y: -6.6983943, z: -2.5291214}
+    m_Value: {x: -0.6467594, y: 2.6092458, z: 0.29056042}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -8411,7 +11312,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -8427,25 +11328,25 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.22885816, y: -0.027739229, z: 0.0065242243, w: 0.9730427}
+    m_Target: {x: 0.2526888, y: -0.42078605, z: 0.1232808, w: 0.86249125}
     speed: 2
-    m_Value: {x: 0.2273983, y: -0.02774898, z: 0.006482607, w: 0.9733848}
+    m_Value: {x: 0.24895526, y: -0.437715, z: 0.12752795, w: 0.8544961}
   m_Size:
-    m_Target: 17.754766
+    m_Target: 1.0454465
     speed: 2
-    m_Value: 16.990208
+    m_Value: 1.0454465
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 0.94053
+    m_SpeedNormalized: 0.47
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -8483,10 +11384,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 504
-    y: 81
-    width: 1006
-    height: 656
+    x: 322
+    y: 73
+    width: 1163
+    height: 667
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -8497,7 +11398,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1006, y: 635}
+  m_TargetSize: {x: 1163, y: 646}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -8512,10 +11413,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -503
-    m_HBaseRangeMax: 503
-    m_VBaseRangeMin: -317.5
-    m_VBaseRangeMax: 317.5
+    m_HBaseRangeMin: -581.5
+    m_HBaseRangeMax: 581.5
+    m_VBaseRangeMin: -323
+    m_VBaseRangeMax: 323
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -8533,23 +11434,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1006
-      height: 635
+      width: 1163
+      height: 646
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 503, y: 317.5}
+    m_Translation: {x: 581.5, y: 323}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -503
-      y: -317.5
-      width: 1006
-      height: 635
+      x: -581.5
+      y: -323
+      width: 1163
+      height: 646
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1006, y: 656}
+  m_LastWindowPixelSize: {x: 1163, y: 667}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -8575,10 +11476,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 417
-    y: 763
-    width: 1198
-    height: 245
+    x: 0
+    y: 761
+    width: 1453
+    height: 248
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
