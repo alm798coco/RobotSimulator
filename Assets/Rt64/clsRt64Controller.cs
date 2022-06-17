@@ -126,96 +126,122 @@ public class clsRt64Controller : MonoBehaviour
                 Commen = 0;
             }
         }
+
+        
+    }
+
+    private void FixedUpdate()
+    {
+        int sts = 0;
+        Rt64ecdata.MODECHG ptp = Rt64ecdata.MODECHG.Init();
+        ptp.mode = 0;
+        sts = Rt64eccom64api.SendCommand(hPlm, Syncdef.REQ_MODECHG, TaskSel, ref ptp);
+
+        int cnta;
+        Rt64ecdata.RBTWORKPRM ptpc = Rt64ecdata.RBTWORKPRM.Init();
+        for (cnta = ptpc.WorkOfs.GetLowerBound(0); cnta <= ptpc.WorkOfs.GetUpperBound(0); cnta++)
+        {
+            ptpc.WorkOfs[cnta] = 0;
+        }
+        ptpc.WorkOfs[0] = 100;
+        ptpc.WorkOfs[1] = 200;
+        ptpc.WorkOfs[2] = 300;
+        sts = Rt64eccom64api.SendData(hPlm, Syncdef.DAT_RBTPRM, TaskSel, 0, 65536, ref ptpc);
+
+        ptp = Rt64ecdata.MODECHG.Init();
+        ptp.mode = 2;
+        sts = Rt64eccom64api.SendCommand(hPlm, Syncdef.REQ_MODECHG, TaskSel, ref ptp);
     }
 
     // Update is called once per frame
     void Update()
     {
-        int sts;
-        int pos;
-        int sz = 0;
-        Rt64ecdata.STATUS stat = Rt64ecdata.STATUS.Init();
-        Rt64ecdata.RBTPOSINFO rpos = Rt64ecdata.RBTPOSINFO.Init();
+        //int sts;
+        //int pos;
+        //int sz = 0;
+        //Rt64ecdata.STATUS stat = Rt64ecdata.STATUS.Init();
+        //Rt64ecdata.RBTPOSINFO rpos = Rt64ecdata.RBTPOSINFO.Init();
 
-        if (1 == Commen)
-        {
-            sts = Rt64eccom64api.ReceiveData(hPlm, Syncdef.DAT_STATUS, 0, 0, ref sz, ref stat);
-            pos = Rt64eccom64api.ReceiveData(hPlm, Syncdef.DAT_RBTPOSINF, 0, 0, ref sz, ref rpos);
-            if (sts != Syncdef.E_OK)
-            {
-                Commen = 0;
-            }
-            else
-            {
-                int cnt;
-                for (cnt = CrPosAry.GetLowerBound(0); cnt <= CrPosAry.GetUpperBound(0); cnt++)
-                {
-                    if (0 != (l_axis_en[TaskSel] & (1 << cnt)))
-                    {
-                        int axln;
-                        axln = l2p[TaskSel, cnt];
-                        CrPosAry[cnt].GetComponent<Text>().text = stat.ax[axln].ComReg.ToString();
-                        CrPosAry2[cnt].GetComponent<Text>().text = rpos.rbtcr[axln].ToString();
+        //if (1 == Commen)
+        //{
+        //    sts = Rt64eccom64api.ReceiveData(hPlm, Syncdef.DAT_STATUS, 0, 0, ref sz, ref stat);
+        //    pos = Rt64eccom64api.ReceiveData(hPlm, Syncdef.DAT_RBTPOSINF, 0, 0, ref sz, ref rpos);
 
-                        //if (axln == 5)
-                        //{
-                        //    m_Kata.transform.eulerAngles = new Vector3(0.0f, 0.0f, rpos.rbtcr[axln] / 1000.0f);
-                        //}
-                        if (axln == 0)
-                        {
-                            //m_Daiza.transform.eulerAngles = new Vector3(0.0f, stat.ax[axln].ComReg / 1000.0f, 0.0f);
+        //    if (sts != Syncdef.E_OK)
+        //    {
+        //        Commen = 0;
+        //    }
+        //    else
+        //    {
+        //        int cnt;
+        //        for (cnt = CrPosAry.GetLowerBound(0); cnt <= CrPosAry.GetUpperBound(0); cnt++)
+        //        {
+        //            if (0 != (l_axis_en[TaskSel] & (1 << cnt)))
+        //            {
+        //                int axln;
+        //                axln = l2p[TaskSel, cnt];
+        //                CrPosAry[cnt].GetComponent<Text>().text = stat.ax[axln].ComReg.ToString();
+        //                CrPosAry2[cnt].GetComponent<Text>().text = rpos.rbtcr[axln].ToString();
 
-                            //m_Daiza.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.up) * m_Daiza.transform.rotation;
+        //                //if (axln == 5)
+        //                //{
+        //                //    m_Kata.transform.eulerAngles = new Vector3(0.0f, 0.0f, rpos.rbtcr[axln] / 1000.0f);
+        //                //}
+        //                if (axln == 0)
+        //                {
+        //                    //m_Daiza.transform.eulerAngles = new Vector3(0.0f, stat.ax[axln].ComReg / 1000.0f, 0.0f);
 
-                            m_Daiza.transform.localEulerAngles =  Vector3.up * (stat.ax[axln].ComReg / 1000.0f);
+        //                    //m_Daiza.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.up) * m_Daiza.transform.rotation;
 
-                        }
-                        else if(axln == 1)
-                        {
-                            //m_Kata.transform.eulerAngles = new Vector3(0.0f, 0.0f, stat.ax[axln].ComReg / 1000.0f);
+        //                    m_Daiza.transform.localEulerAngles = Vector3.up * (stat.ax[axln].ComReg / 1000.0f);
 
-                            //m_Kata.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.forward) * m_Kata.transform.rotation;
+        //                }
+        //                else if (axln == 1)
+        //                {
+        //                    //m_Kata.transform.eulerAngles = new Vector3(0.0f, 0.0f, stat.ax[axln].ComReg / 1000.0f);
 
-                            m_Kata.transform.localEulerAngles = Vector3.forward * (stat.ax[axln].ComReg / 1000.0f);
-                        }
-                        else if (axln == 2)
-                        {
-                            //m_Hiji.transform.eulerAngles = new Vector3(0.0f, 0.0f, stat.ax[axln].ComReg / 1000.0f);
+        //                    //m_Kata.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.forward) * m_Kata.transform.rotation;
 
-                            //m_Hiji.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.forward) * m_Hiji.transform.rotation;
+        //                    m_Kata.transform.localEulerAngles = Vector3.forward * (stat.ax[axln].ComReg / 1000.0f);
+        //                }
+        //                else if (axln == 2)
+        //                {
+        //                    //m_Hiji.transform.eulerAngles = new Vector3(0.0f, 0.0f, stat.ax[axln].ComReg / 1000.0f);
 
-                            m_Hiji.transform.localEulerAngles = Vector3.forward * (stat.ax[axln].ComReg / 1000.0f);
-                        }
-                        else if (axln == 3)
-                        {
-                            //m_Hiji.transform.eulerAngles = new Vector3(0.0f, 0.0f, stat.ax[axln].ComReg / 1000.0f);
+        //                    //m_Hiji.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.forward) * m_Hiji.transform.rotation;
 
-                            //m_Spin1.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.right) * m_Spin1.transform.rotation;
+        //                    m_Hiji.transform.localEulerAngles = Vector3.forward * (stat.ax[axln].ComReg / 1000.0f);
+        //                }
+        //                else if (axln == 3)
+        //                {
+        //                    //m_Hiji.transform.eulerAngles = new Vector3(0.0f, 0.0f, stat.ax[axln].ComReg / 1000.0f);
 
-                            m_Spin1.transform.localEulerAngles = m_Spin1T + Vector3.right * (stat.ax[axln].ComReg / 1000.0f);
-                        }
-                        else if (axln == 4)
-                        {
-                            //m_Tekubi.transform.eulerAngles = new Vector3(0.0f, 0.0f, stat.ax[axln].ComReg / 1000.0f);
+        //                    //m_Spin1.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.right) * m_Spin1.transform.rotation;
 
-                            //m_Tekubi.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.forward) * m_Tekubi.transform.rotation;
+        //                    m_Spin1.transform.localEulerAngles = m_Spin1T + Vector3.right * (stat.ax[axln].ComReg / 1000.0f);
+        //                }
+        //                else if (axln == 4)
+        //                {
+        //                    //m_Tekubi.transform.eulerAngles = new Vector3(0.0f, 0.0f, stat.ax[axln].ComReg / 1000.0f);
 
-                            m_Tekubi.transform.localEulerAngles = m_TekubiT + Vector3.forward * (stat.ax[axln].ComReg / 1000.0f);
-                        }
-                        else if (axln == 5)
-                        {
-                            //m_Tekubi.transform.eulerAngles = new Vector3(0.0f, 0.0f, stat.ax[axln].ComReg / 1000.0f);
+        //                    //m_Tekubi.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.forward) * m_Tekubi.transform.rotation;
 
-                            //m_Spin2.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.up) * m_Spin2.transform.rotation;
+        //                    m_Tekubi.transform.localEulerAngles = m_TekubiT + Vector3.forward * (stat.ax[axln].ComReg / 1000.0f);
+        //                }
+        //                else if (axln == 5)
+        //                {
+        //                    //m_Tekubi.transform.eulerAngles = new Vector3(0.0f, 0.0f, stat.ax[axln].ComReg / 1000.0f);
 
-                            m_Spin2.transform.localEulerAngles = Vector3.up * (stat.ax[axln].ComReg / 1000.0f);
-                        }
-                    }
-                    //else
-                        //CrPosAry[cnt].GetComponent<Text>().text = "0";
-                }                
-            }
-        }
+        //                    //m_Spin2.transform.rotation = Quaternion.AngleAxis(stat.ax[axln].ComReg / 1000.0f, Vector3.up) * m_Spin2.transform.rotation;
+
+        //                    m_Spin2.transform.localEulerAngles = Vector3.up * (stat.ax[axln].ComReg / 1000.0f);
+        //                }
+        //            }
+        //            //else
+        //            //CrPosAry[cnt].GetComponent<Text>().text = "0";
+        //        }
+        //    }
+        //}
     }
 
     public int ReceiveAssAxisTbl()
