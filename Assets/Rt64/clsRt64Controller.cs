@@ -137,20 +137,53 @@ public class clsRt64Controller : MonoBehaviour
         ptp.mode = 0;
         sts = Rt64eccom64api.SendCommand(hPlm, Syncdef.REQ_MODECHG, TaskSel, ref ptp);
 
-        int cnta;
-        Rt64ecdata.RBTWORKPRM ptpc = Rt64ecdata.RBTWORKPRM.Init();
-        for (cnta = ptpc.WorkOfs.GetLowerBound(0); cnta <= ptpc.WorkOfs.GetUpperBound(0); cnta++)
-        {
-            ptpc.WorkOfs[cnta] = 0;
-        }
-        ptpc.WorkOfs[0] = 100;
-        ptpc.WorkOfs[1] = 200;
-        ptpc.WorkOfs[2] = 300;
-        sts = Rt64eccom64api.SendData(hPlm, Syncdef.DAT_RBTPRM, TaskSel, 0, 65536, ref ptpc);
+        //int cnta;
+        //Rt64ecdata.RBTTOOLPRM ptpc = Rt64ecdata.RBTTOOLPRM.Init();
+        //for (cnta = ptpc.ToolOfs.GetLowerBound(0); cnta <= ptpc.ToolOfs.GetUpperBound(0); cnta++)
+        //{
+        //    ptpc.ToolOfs[cnta] = 0;
+        //}
+        //ptpc.ToolOfs[0] = 100;
+        //ptpc.ToolOfs[1] = 200;
+        //ptpc.ToolOfs[2] = 300;
+        //ptpc.ToolOfs[3] = 400;
+        //ptpc.ToolOfs[4] = 500;
+        //ptpc.ToolOfs[5] = 600;
+        //sts = Rt64eccom64api.SendData(hPlm, Syncdef.DAT_RBTTOOLPRM, TaskSel, 0, 65535, ref ptpc);
 
-        ptp = Rt64ecdata.MODECHG.Init();
-        ptp.mode = 2;
-        sts = Rt64eccom64api.SendCommand(hPlm, Syncdef.REQ_MODECHG, TaskSel, ref ptp);
+        //int cnta;
+        //Rt64ecdata.RBTWORKPRM ptpc = Rt64ecdata.RBTWORKPRM.Init();
+        //for (cnta = ptpc.WorkOfs.GetLowerBound(0); cnta <= ptpc.WorkOfs.GetUpperBound(0); cnta++)
+        //{
+        //    ptpc.WorkOfs[cnta] = 0;
+        //}
+        //ptpc.WorkOfs[0] = 100;
+        //ptpc.WorkOfs[1] = 200;
+        //ptpc.WorkOfs[2] = 300;
+        //ptpc.WorkOfs[3] = 400;
+        //ptpc.WorkOfs[4] = 500;
+        //ptpc.WorkOfs[5] = 600;
+        //sts = Rt64eccom64api.SendData(hPlm, Syncdef.DAT_RBTWORKPRM, TaskSel, 0, 65535, ref ptpc);
+
+        int cnta;
+        Rt64ecdata.RBT6AXISPRM ptpc = Rt64ecdata.RBT6AXISPRM.Init();
+        for (cnta = ptpc.LinkPrm.GetLowerBound(0); cnta <= ptpc.LinkPrm.GetUpperBound(0); cnta++)
+        {
+            ptpc.LinkPrm[cnta] = 0;
+        }
+        ptpc.LinkPrm[0] = 100;
+        ptpc.LinkPrm[1] = 200;
+        ptpc.LinkPrm[2] = 300;
+        ptpc.LinkPrm[3] = 400;
+        ptpc.LinkPrm[4] = 500;
+        ptpc.LinkPrm[5] = 600;
+        ptpc.LinkPrm[6] = 700;
+        ptpc.LinkPrm[7] = 800;
+        sts = Rt64eccom64api.SendData(hPlm, Syncdef.DAT_RBT6AXISPRM, TaskSel, 0, 65535, ref ptpc);
+
+        //ptp = Rt64ecdata.MODECHG.Init();
+        //ptp.mode = 2;
+        //sts = Rt64eccom64api.SendCommand(hPlm, Syncdef.REQ_MODECHG, TaskSel, ref ptp);
     }
 
     // Update is called once per frame
